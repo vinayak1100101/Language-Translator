@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    
+   <div class="container">
+     <div class="wrapper">
+        <div class="heading">
+            <h1 >  **** LANGUAGE TRANSLATOR ****   </h1>
+        </div>
+        
+        <div class="text-input">
+            <div class="input">
+                <textarea style="font-size: 30px;" placeholder="Enter Text" class="from-text" ></textarea>
+            </div>
+            <div class="output">
+                <textarea style="font-size: 30px;" placeholder="Translation" class="to-text" readonly disabled ></textarea>
+            </div>
+            
+        </div>
+            <ul class="contols">
+                 <li class="row from">
+                     <div class="icons">
+                         
+                         <i id="from" class="fa-solid fa-copy"></i>
+                     </div>
+                     <select >
+                     </select>
+                 </li>
+                 <li class="exchange"><i class="fa-solid fa-right-left"></i></li>
+                 <li class="row to">
+                     <select class="select2" >
+                     </select >
+                     <div class="icons">
+                     
+                         <i id="to" class="fa-solid fa-copy"></i>
+                    </div>
+                 </li>
+     </div>
+                    <button type="submit">Translate Text</button>
+            </ul>
+    
+    </div>
+    <script src="./countries.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

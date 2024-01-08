@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input{
+margin: 30px;
+
+}
+.heading{
+    align-items: center;
+    margin: 50px;
+    margin-left: 190px;
+}
+.output{
+margin:30px;
+}
+.text-input{
+    border-radius: 50%;
+    
+}
+body
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(135, 225, 210);
+}
+.container
+{   
+    margin-top: 50px;
+    background-color: white;
+    width: 1000px;
+    padding: 30px;
+    height:650px;
+    border-radius: 10px;
+    
+}
+
+.wrapper 
+{
+    border: 1px solid #bbb;
+}
+.wrapper .text-input
+{
+    display: flex;
+}
+.text-input textarea
+{
+    height: 250px;
+    width: 400px;
+    font-size: 18px;
+    resize: none;
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 10px;
+}
+.contols,li
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 10px;
+    margin-left: 50px;
+}
+.contols .icons i
+{
+    color: #413d3d;
+    cursor: pointer;
+    width: 50px;
+    font-size: 30px;
+    margin-right: 50px;
+}
+.select2
+{
+    margin-right: 30px;
+}
+
+select
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.exchange
+{
+    color: #413d3d;
+    margin-left: 35px;
+    cursor: pointer;
+}
+ button{
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+    background-color: #cec9c9;
+    border:1px solid #bbb;
+}
+
+button:hover{
+    background-color: aqua;
+}
